@@ -1,0 +1,75 @@
+.badge-ec-blue {
+    color: #212529;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #437EC4;
+    color: #437EC4;
+    padding: .5rem 0.75rem;
+    font-size: 14px;
+    font-weight: normal; }
+  a.badge-ec-blue:hover, a.badge-ec-blue:focus {
+      color: #212529;
+      background-color: #e6e6e6; }
+  a.badge-ec-blue:focus, a.badge-ec-blue.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .badge-ec-green {
+    color: #212529;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #25B877;
+    color: #25B877;
+    padding: .5rem 0.75rem;
+    font-size: 14px;
+    font-weight: normal; }
+  a.badge-ec-green:hover, a.badge-ec-green:focus {
+      color: #212529;
+      background-color: #e6e6e6; }
+  a.badge-ec-green:focus, a.badge-ec-green.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .badge-ec-red {
+    color: #212529;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #C04949;
+    color: #C04949;
+    padding: .5rem 0.75rem;
+    font-size: 14px;
+    font-weight: normal; }
+  a.badge-ec-red:hover, a.badge-ec-red:focus {
+      color: #212529;
+      background-color: #e6e6e6; }
+  a.badge-ec-red:focus, a.badge-ec-red.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .badge-ec-yellow {
+    color: #212529;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #EEB128;
+    color: #EEB128;
+    padding: .5rem 0.75rem;
+    font-size: 14px;
+    font-weight: normal; }
+  a.badge-ec-yellow:hover, a.badge-ec-yellow:focus {
+      color: #212529;
+      background-color: #e6e6e6; }
+  a.badge-ec-yellow:focus, a.badge-ec-yellow.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
+  .badge-ec-glay {
+    color: #212529;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
+    padding: .5rem 0.75rem;
+    font-size: 14px;
+    font-weight: normal; }
+  a.badge-ec-glay:hover, a.badge-ec-glay:focus {
+      color: #212529;
+      background-color: #e6e6e6; }
+  a.badge-ec-glay:focus, a.badge-ec-glay.focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5); }
