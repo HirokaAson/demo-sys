@@ -21,6 +21,26 @@
         <div class="row">
           <div class="form-group col-md-4">
             <div class="form-group">
+              <label>会社</label>
+              <input type="text" name="company_name" id="userphone" maxlength="12" class="form-control" value="{{ $customer_item->company_name}}" disabled>
+            </div>
+          </div>
+          <div class="form-group col-md-4">
+            <div class="form-group">
+              <label>名前</label>
+              <input type="text" name="name" id="userphone" maxlength="12" class="form-control" value="{{ $customer_item->name01. $customer_item->name02}}" disabled>
+            </div>
+          </div>
+          <div class="form-group col-md-4">
+            <div class="form-group">
+              <label>メールアドレス</label>
+              <input type="text" name="email" id="userphone" maxlength="12" class="form-control" value="{{ $customer_item->email}}" disabled>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-4">
+            <div class="form-group">
               <label>弥生販売連携コード</label>
               <input type="text" name="integration_code" id="userphone" maxlength="12" class="form-control" value="{{ $integration_code}}" placeholder="Enter integration code">
             </div>

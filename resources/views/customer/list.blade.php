@@ -34,6 +34,7 @@
             <thead class="thead-dark">
               <tr>
                 <th>#</th>
+                <th>#</th>
                 <th>会社</th>
                 <th>名前</th>
                 <th>メールアドレス</th>
@@ -46,8 +47,13 @@
               @foreach ($dtb_customers as $dtb_customer)
                 <tr>
                   <th scope="row">{{ $dtb_customer->id }}</th>
+                  <td>
+                    <img src="{{ asset('image/sample.jpeg') }}" class="rounded-circle" alt="Cinque Terre" width="50" height="50"> 
+                  </td>
                   <td>{{ $dtb_customer->company_name }}</td>
-                  <td>{{ $dtb_customer->name01. $dtb_customer->name02 }}</td>
+                  <td>
+                    {{ $dtb_customer->name01. $dtb_customer->name02 }}
+                  </td>
                   <td>{{ $dtb_customer->email }}</td>
                   <td>{{ $dtb_customer->phone_number }}</td>
                   <td>{{ $dtb_customer->integration_code }}</td>

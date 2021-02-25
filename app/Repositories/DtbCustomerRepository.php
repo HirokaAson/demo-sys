@@ -21,6 +21,11 @@ class DtbCustomerRepository extends BaseRepository
         return $this->table->simplePaginate(20);
     }
 
+    public function find($customer_id)
+    {
+        return $this->table->find($customer_id);
+    }
+
     public function getAllWithYayoiSalesPaginate($search_param)
     {
         $query = $this->table->leftJoin('yayoi_sales', 'dtb_customer.id', '=', 'yayoi_sales.customer_id');

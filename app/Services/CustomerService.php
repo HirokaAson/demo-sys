@@ -34,6 +34,11 @@ class CustomerService
         
     }
 
+    public function getById($customer_id)
+    {
+        return $this->dtb_customer_repository->find($customer_id);
+    }
+
     public function getCustomer($search_param)
     {
         return $this->dtb_customer_repository->getAllWithYayoiSalesPaginate($search_param);

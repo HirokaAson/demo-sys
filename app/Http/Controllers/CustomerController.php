@@ -40,7 +40,9 @@ class CustomerController extends BaseController
     $customer_id = $request->route()->parameter('customer_id');
     $yayoi_sales_data = $this->customer_service->getYayoiSalesByCustomerId($customer_id);
     $yayoi_integration_items = $this->customer_service->getYayoiIntegrationItem();
-
+    $customer_item = $this->customer_service->getById($customer_id);
+    // var_dump($customer_item);
+    // exit;
     if ($yayoi_sales_data) {
       return view(
         'customer.detail',
@@ -63,6 +65,7 @@ class CustomerController extends BaseController
           'classification_three_type_id' => $yayoi_sales_data->classification_three_type_id,
           'reference_display_type_id' => $yayoi_sales_data->reference_display_type_id,
           'yayoi_integration_items' => $yayoi_integration_items,
+          'customer_item' => $customer_item,
         ]
       );
     } else {
